@@ -1,0 +1,77 @@
+class TreatItem {
+  final String id;
+  final String name;
+  final String description;
+  final String colories;
+  final String image;
+  final double price;
+
+  TreatItem({
+    required this.id,
+    required this.name,
+    required this.colories,
+    required this.description,
+    required this.image,
+    required this.price,
+  });
+
+  // mock data
+  // 7 items
+  static List<TreatItem> mockItems = [
+    TreatItem(
+        id: '1',
+        name: 'New York Cheesecake',
+        description:
+            'One of the creamiest cheesecakes you\'ll ever taste with a crumbly biscuit base.',
+        image: 'assets/images/treat/TREAT_0.png',
+        colories: '2195 kJ',
+        price: 190.0), 
+    TreatItem(
+        id: '2',
+        name: 'Strawberry Jam Filled Donut',
+        description:
+            'A traditional soft and tasy donut, iced with strawberry glaze and filled with strawberry jam. ',
+        image: 'assets/images/treat/TREAT_1.png',
+        colories: '1292 kJ',
+        price: 130.0), 
+    TreatItem(
+        id: '3',
+        name: 'Chocolate Jam Filled Donut',
+        description:
+            'A traditional soft and tasy donut, iced with chocolate glaze and filled with strawberry jam.',
+        image: 'assets/images/treat/TREAT_2.png',
+        colories: '1207 kJ',
+        price: 100.0), 
+    TreatItem(
+        id: '4',
+        name: 'Galaxy Donut',
+        description:
+            'A traditional soft and delicious donut iced with either pink or blue galaxy style glaze.',
+        image: 'assets/images/treat/TREAT_3.png',
+        colories: '1252 kJ',
+        price: 160.0), 
+    TreatItem(
+        id: '5',
+        name: 'Chocolate Raspberry Mudcake',
+        description:
+            'A dense and decadently rich flouriness chocolate cake made completely from plant-based ingredients',
+        image: 'assets/images/treat/TREAT_4.png',
+        colories: '2916 kJ',
+        price: 200.0), 
+    TreatItem(
+        id: '6',
+        name: 'Donut Cookie',
+        description: 'Colorful shortbread cookies in fun, novelty shapes of donuts.',
+        image: 'assets/images/treat/TREAT_5.png',
+        colories: '705 kJ',
+        price: 90.0), 
+    TreatItem(
+        id: '7',
+        name: 'Chocolate Chip Cookie',
+        description:
+            'Baked to perfection by one of Melbourne’s best small-batch bakehouse with generous chunks of milk chocolate. So soft, so chewy, so shakable!',
+        image: 'assets/images/treat/TREAT_6.png',
+        colories: '978 kJ',
+        price: 150.0), 
+  ];
+}
